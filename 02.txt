@@ -1,0 +1,8 @@
+Document Object: The Document object represents the HTML document itself. It is a part of the DOM hierarchy and contains properties and methods that allow you to access and manipulate the content of the document. For example, you can use the Document object to access elements by their IDs, classes, or tags, modify the content of the document, create new elements, or manipulate the structure of the document.
+ example;
+                      var title = document.title;
+
+Window Object: The Window object represents the browser window or tab that contains the document. It serves as the global object for JavaScript code running in that window and provides properties and methods for controlling the window itself, as well as interacting with the browser environment. The Window object includes properties like window.innerHeight and window.innerWidth for getting the dimensions of the viewport, methods for opening and closing windows, and accessing other browser features.
+example;
+                window.open('https://example.com', '_blank');
+                         
